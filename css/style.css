@@ -20,9 +20,9 @@ body {
   align-items: center;
 }
 .company-top img {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -162,7 +162,7 @@ input[type="time"] {
 }
 .img-group {
   flex: 2.5;
-  background-image: url(../card-img.jpg);
+  background-image: url(../image/Roblox.jpg);
   background-size: cover;
   border-radius: 20px;
   display: flex;
@@ -249,6 +249,11 @@ input[type="time"] {
   display: flex;
   align-items: center;
 }
+.person-name-left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
 .person-price-right {
   display: flex;
   flex-direction: column;
@@ -305,6 +310,11 @@ input[type="time"] {
   display: flex;
   align-items: center;
 }
+.name-left img {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
 .name {
   margin-left: 5px;
 }
@@ -316,6 +326,10 @@ input[type="time"] {
   flex: 1;
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(131, 131, 131);
+
 }
 .name-img {
   margin-bottom: 5px;
@@ -335,8 +349,9 @@ input[type="time"] {
 }
 .hero {
   flex: 1;
-  background-image: url(../image/hero2.jpg);
+  background-image: url(../image/legends.jpg);
   background-size: cover;
+
   border-radius: 10px;
 }
 .text-hero {
@@ -457,6 +472,9 @@ input[type="time"] {
   .money-right,
   .name-left {
     font-size: 15px;
+  }
+  .hero {
+    background-position: center;
   }
   .info-group {
     flex-basis: 95%;
