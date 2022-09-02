@@ -399,7 +399,8 @@ input[type="time"] {
     grid-template-columns: repeat(2, 1fr);
   }
   .info-group {
-    flex-basis: 45%;
+    flex-basis: 46%;
+    font-size: 13px;
   }
   .container-right {
     flex: 0.8;
